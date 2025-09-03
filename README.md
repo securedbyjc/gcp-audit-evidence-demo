@@ -194,7 +194,7 @@ Please feel free to submit issues and pull requests.
 ## 📚 Resources
 
 - [NIST 800-53 Controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
-- [CMMC Framework](https://www.acq.osd.mil/cmmc/)
+- [CMMC Framework](https://https://www.dodcui.mil/CMMC/Cybersecurity-Maturity-Model-Certification/))
 - [FedRAMP Requirements](https://www.fedramp.gov/)
 - [GCP Security Best Practices](https://cloud.google.com/security/best-practices)
 - [CISA ScubaGoggles](https://github.com/cisagov/ScubaGoggles)
@@ -242,5 +242,6 @@ This is an educational demonstration tool. It is not intended for production use
 </div>
 </artifact>
 </artifacts>
+
 
 
