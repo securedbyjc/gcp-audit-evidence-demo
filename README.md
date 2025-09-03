@@ -228,7 +228,7 @@ Please feel free to submit issues and pull requests.
 
 **Ready to automate your GRC workflows?**
 
-- **Email:** jcollins@eagledefensesys.tech
+- **Email:** info@eagledefensesys.tech
 - **Website:** [eagledefensesys.tech](https://www.eagledefensesys.tech)
 - **LinkedIn:** [Eagle Defense Systems](https://www.linkedin.com/company/securedbyjc)
 - **Schedule Demo:** [Contact Us](https://www.eagledefensesys.tech/contact)
@@ -256,6 +256,7 @@ This is an educational demonstration tool. It is not intended for production use
 </div>
 </artifact>
 </artifacts>
+
 
 
 
