@@ -62,12 +62,25 @@ python exporter/main.py
 - Integrates CISA ScubaGoggles assessments
 - Outputs formatted Excel with multiple views
 
-### 📊 Compliance Framework Mapping
-- **NIST 800-53** - Federal standard controls
-- **CMMC 2.0** - Defense contractor requirements
-- **FedRAMP** - Cloud service authorization
-- **SOC 2** - Service organization controls
-- **ISO 27001** - International security standard
+### 📊 Comprehensive Framework Mapping (20+ Controls)
+Our educational demo includes mappings across **5 major compliance frameworks**:
+
+- **NIST 800-53** - Federal standard controls (AC, AU, SC, IA, etc.)
+- **CMMC 2.0** - Defense contractor requirements (Level 2 & 3 practices)
+- **FedRAMP** - Cloud service authorization (Low/Moderate/High baselines)
+- **SOC 2** - Service organization controls (CC, A, C criteria)
+- **ISO 27001** - International security standard (Annex A controls)
+
+#### Control Categories Covered:
+- **Access Control** - Identity, authentication, and authorization
+- **Data Protection** - Encryption, classification, and storage security
+- **Network Security** - Boundary protection and segmentation
+- **Audit & Accountability** - Logging, monitoring, and review
+- **Incident Response** - Detection, handling, and reporting
+- **Identity Management** - Account lifecycle and privileged access
+- **Configuration Management** - Baselines and change control
+- **Risk Management** - Assessment and vulnerability scanning
+- **System Maintenance** - Patching and updates
 
 ### 📁 Evidence Bundle Generation
 - Timestamped audit packages
@@ -75,13 +88,14 @@ python exporter/main.py
 - Screenshot integration
 - Complete audit trail
 
-### 🎨 Auditor-Friendly Output
-- Executive summary dashboard
-- Color-coded severity ratings
-- Formatted tables and filters
-- Direct compliance mappings
-- Print-ready reports
-
+### 🎨 Professional Excel Output
+- **Color-coded severity ratings** (Critical=Red, High=Orange, Medium=Yellow)
+- **Colored worksheet tabs** by compliance category
+- **Executive summary dashboard** with metrics
+- **Auto-formatted columns** with borders and headers
+- **Dynamic tab creation** based on control categories
+- **Print-ready reports** for auditor review
+  
 ## 🎬 Live Demo
 
 <div align="center">
@@ -242,6 +256,7 @@ This is an educational demonstration tool. It is not intended for production use
 </div>
 </artifact>
 </artifacts>
+
 
 
 
