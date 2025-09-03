@@ -1,0 +1,21 @@
+rule_id,nist_ref,cmmc_ref,fedramp_ref,soc2_ref,iso27001_ref,description,category,excel_tab
+DEMO_001,"AC-3, AC-6","AC.L2-3.1.1, AC.L2-3.1.2","Moderate -- AC-3, AC-6","CC6.1, CC6.3","A.9.1.2, A.9.4.1","Access control and least privilege enforcement",Access Control,Access_Controls
+DEMO_002,"AC-4, AC-22","AC.L2-3.1.3, SC.L1-3.13.1","Moderate -- AC-4, AC-22","CC6.6, CC6.7","A.13.1.1, A.13.2.1","Information flow and public access protection",Data Protection,Data_Security
+DEMO_003,"AU-6, AU-12","AU.L2-3.3.1, AU.L2-3.3.4","High -- AU-6, AU-12","CC7.1, CC7.2","A.12.4.1, A.12.4.3","Audit review and monitoring",Audit & Accountability,Audit_Logging
+SCUBA_PUBLIC_ACCESS,"AC-3, AC-14","AC.L2-3.1.2, AC.L3-3.1.3","High -- AC-3, AC-14","CC6.1, CC6.6","A.9.1.2, A.9.1.3","Public access control via CISA ScubaGoggles",Access Control,ScubaGoggles_Assessment
+SCUBA_ADMIN_ROLE,"AC-2, AC-5","AC.L2-3.1.1, AC.L3-3.1.4","High -- AC-2, AC-5","CC6.1, CC6.2","A.9.2.1, A.9.2.3","Privileged account management via CISA ScubaGoggles",Identity Management,ScubaGoggles_Assessment
+PUBLIC_GCS_BUCKET,"SC-28, SC-8","SC.L2-3.13.16, SC.L2-3.13.8","Moderate -- SC-28, SC-8","CC6.7, CC7.2","A.8.24, A.10.1.1","Storage encryption and transmission security",Data Protection,Data_Security
+DORMANT_USER_ACCOUNT,"AC-2, IA-4","AC.L2-3.1.1, IA.L2-3.5.3","Moderate -- AC-2, IA-4","CC6.2, CC6.3","A.9.2.1, A.9.2.6","Account lifecycle management",Identity Management,Access_Controls
+AUTH_BRUTE_FORCE,"AC-7, AU-2","AC.L2-3.1.8, AU.L2-3.3.1","High -- AC-7, AU-2","CC6.2, CC6.8","A.9.4.2, A.12.4.1","Unsuccessful login attempt monitoring",Incident Response,SIEM_Incidents
+REMOTE_LOGIN_NO_MFA,"IA-2, IA-5","IA.L2-3.5.3, IA.L3-3.5.2","High -- IA-2, IA-5","CC6.1, CC6.6","A.9.4.2, A.9.1.2","Multi-factor authentication enforcement",Authentication,Access_Controls
+SESSION_IDLE_TIMEOUT,"AC-11, AC-12","AC.L2-3.1.10, AC.L2-3.1.11","Moderate -- AC-11, AC-12","CC6.8, CC7.2","A.8.1.3, A.9.4.2","Session lock and termination",Session Management,Access_Controls
+EXCESSIVE_IAM_ROLES,"AC-3, AC-6","AC.L2-3.1.2, AC.L3-3.1.5","High -- AC-3, AC-6","CC6.1, CC6.3","A.9.1.2, A.9.2.3","Principle of least privilege violation",Access Control,Access_Controls
+CRYPTO_KEY_ROTATION,"SC-12, SC-13","SC.L2-3.13.11, SC.L2-3.13.10","High -- SC-12, SC-13","CC6.1, CC7.5","A.10.1.2, A.18.1.5","Cryptographic key management",Cryptography,Data_Security
+FIREWALL_RULE_VIOLATION,"SC-7, CA-3","SC.L1-3.13.1, SC.L2-3.13.5","Moderate -- SC-7, CA-3","CC6.6, CC6.7","A.13.1.1, A.13.1.3","Network boundary protection",Network Security,Network_Security
+LOG_RETENTION_POLICY,"AU-4, AU-11","AU.L2-3.3.4, AU.L2-3.3.6","Moderate -- AU-4, AU-11","CC7.1, CC7.3","A.12.4.1, A.12.4.2","Audit log retention requirements",Audit & Accountability,Audit_Logging
+VULNERABILITY_SCAN,"RA-5, CA-2","RM.L2-3.11.2, RM.L2-3.11.3","High -- RA-5, CA-2","CC7.1, CC4.1","A.12.6.1, A.18.2.3","Vulnerability scanning and assessment",Risk Management,Vulnerability_Management
+INCIDENT_RESPONSE,"IR-4, IR-6","IR.L2-3.6.1, IR.L2-3.6.2","High -- IR-4, IR-6","CC7.3, CC7.4","A.16.1.2, A.16.1.5","Incident handling and reporting",Incident Response,SIEM_Incidents
+DATA_CLASSIFICATION,"RA-2, SC-28","SC.L2-3.13.16, MP.L2-3.8.1","Moderate -- RA-2, SC-28","CC3.1, CC6.7","A.8.2.1, A.8.2.3","Data categorization and protection",Data Protection,Data_Security
+BACKUP_VERIFICATION,"CP-9, CP-10","RE.L2-3.11.1, RE.L2-3.11.2","Moderate -- CP-9, CP-10","CC7.5, A3.5","A.17.1.2, A.17.1.3","Backup testing and restoration",Continuity Planning,Backup_Recovery
+PATCH_MANAGEMENT,"SI-2, CM-3","CM.L2-3.4.3, MA.L2-3.7.5","High -- SI-2, CM-3","CC7.1, CC7.2","A.12.6.1, A.12.5.1","System patching and updates",Configuration Management,System_Maintenance
+SCUBA_CONFIG_DRIFT,"CM-2, CM-6","CM.L2-3.4.1, CM.L2-3.4.2","High -- CM-2, CM-6","CC7.1, CC8.1","A.12.1.1, A.12.1.2","Configuration baseline via CISA ScubaGoggles",Configuration Management,ScubaGoggles_Assessment

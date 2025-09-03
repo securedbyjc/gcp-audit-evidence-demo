@@ -1,0 +1,12 @@
+{
+  "siem_events": [
+    {
+      "rule_id": "DEMO_003",
+      "severity": "CRITICAL",
+      "event_type": "BRUTE_FORCE_ATTEMPT",
+      "source_ip": "192.168.1.100",
+      "description": "Multiple failed login attempts detected",
+      "event_time": "2025-01-15T12:00:00Z"
+    }
+  ]
+}

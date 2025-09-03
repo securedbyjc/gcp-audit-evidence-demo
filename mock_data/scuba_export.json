@@ -1,0 +1,17 @@
+{
+  "resources": [
+    {
+      "name": "//storage.googleapis.com/public-bucket",
+      "type": "storage.googleapis.com/Bucket",
+      "project_id": "demo-project",
+      "iam": {
+        "bindings": [
+          {
+            "role": "roles/storage.objectViewer",
+            "members": ["allUsers"]
+          }
+        ]
+      }
+    }
+  ]
+}

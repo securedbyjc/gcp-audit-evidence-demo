@@ -1,0 +1,24 @@
+{
+  "findings": [
+    {
+      "rule_id": "DEMO_001",
+      "severity": "HIGH",
+      "resource_name": "compute-instance-001",
+      "project_id": "demo-project",
+      "finding_class": "MISCONFIGURATION",
+      "description": "Instance with public IP and no firewall rules",
+      "event_time": "2025-01-15T10:00:00Z"
+    },
+    {
+      "rule_id": "DEMO_002",
+      "severity": "MEDIUM",
+      "resource_name": "storage-bucket-public",
+      "project_id": "demo-project",
+      "finding_class": "PUBLIC_ACCESS",
+      "description": "Storage bucket with public access enabled",
+      "event_time": "2025-01-15T11:00:00Z"
+    }
+  ]
+}
+
+
